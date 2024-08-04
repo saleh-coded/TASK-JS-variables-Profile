@@ -11,6 +11,13 @@
 
 // Part 1 answer 👇🏻 ...
 
+let fullName = "Saleh";
+let yearOfBirth = 1989;
+let hobby = "swimming";
+let funFact = "no fun fact"
+const image = "https://www.joincoded.com/_next/image?url=https%3A%2F%2Flanding-storage.fra1.digitaloceanspaces.com%2FGroup_1569_1e4061742d.png&w=256&q=75"
+
+
 
 
 
@@ -34,6 +41,10 @@
 // const hobbyString =
 
 
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am ${2024-yearOfBirth}`;
+const hobbyString = `My hobby is ${hobby}`;
+
 
 
 /**
@@ -43,16 +54,18 @@
 
 let stars = 0;
 
-function incrementBy1() {
+function incrementBy1() {stars = stars+1
   // Increment stars by 1 👇🏻
-}
-function decrementBy1() {
+} 
+
+function decrementBy1() {stars = stars-1
   // decrement stars by 1 👇🏻
 }
 
-function incrementBy2() {
+function incrementBy2() {stars = stars+2
   // Increment stars by 2 👇🏻
 }
-function decrementBy2() {
+
+function decrementBy2() {stars = stars-2
   // decrement stars by 2 👇🏻
 }
